@@ -18,12 +18,6 @@ exclude:
   - vendor/gems/
   - vendor/ruby/
 
-# Collections
-collections:
-  posts:
-    output: true
-    permalink: /:year/:month/:day/:title/
-
 # Defaults
 defaults:
   - scope:
@@ -36,6 +30,9 @@ defaults:
 # Pagination
 paginate: 10
 paginate_path: "/page:num/"
+
+# Permalinks
+permalink: /:year/:month/:day/:title/
 
 # SEO
 lang: fr
