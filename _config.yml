@@ -1,0 +1,38 @@
+# Site settings
+title: Blog
+description: Ensemble des articles
+url: "https://baptistecdc.github.io"
+baseurl: "/blog"
+
+# Build settings
+markdown: kramdown
+theme: minima
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+
+# Defaults
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "BaptisteCDC"
+
+# Pagination
+paginate: 10
+paginate_path: "/page:num/"
+
+# Permalinks
+permalink: /:year/:month/:day/:title/
+
+# SEO
+lang: fr

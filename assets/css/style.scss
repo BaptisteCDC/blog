@@ -1,0 +1,30 @@
+---
+---
+
+@import "minima";
+
+/* Custom styles */
+.wrapper {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.post-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.post-list li {
+  margin-bottom: 30px;
+}
+
+.post-meta {
+  color: #828282;
+  font-size: 14px;
+}
+
+.post-link {
+  font-size: 24px;
+  font-weight: bold;
+}
