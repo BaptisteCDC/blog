@@ -442,11 +442,11 @@ Il la rend :
 * **gouvernable** (avec des tools maîtrisés)  
 * **industrialisable** (dans un SI existant)
 
-### **MCP est une brique d'architecture**
+#### **MCP est une brique d'architecture**
 
 Comme toute brique, mal posée, elle fragilise l'ensemble. Bien posée, elle ouvre des possibilités qui n'existaient pas.
 
-### **Les questions à se poser avant d'adopter MCP**
+#### **Les questions à se poser avant d'adopter MCP**
 
 1. **Ai-je vraiment besoin d'un agent ?** Ou est-ce qu'une API classique suffit ?  
 2. **Le coût est-il justifié ?** Le ROI est-il clair et mesurable ?  
@@ -454,7 +454,7 @@ Comme toute brique, mal posée, elle fragilise l'ensemble. Bien posée, elle ouv
 4. **Ai-je une gouvernance en place ?** Quotas, audit, sécurité ?  
 5. **Mon architecture est-elle prête ?** MCP termine sur du déterministe, pas sur d'autres agents ?
 
-### **Quand MCP brille vraiment**
+#### **Quand MCP brille vraiment**
 
 MCP devient pertinent quand vous devez :
 
@@ -463,17 +463,15 @@ MCP devient pertinent quand vous devez :
 * Automatiser du raisonnement métier à forte valeur ajoutée  
 * Permettre à l'IA d'explorer des possibilités que vous n'aviez pas anticipées
 
-### **L'avenir de MCP**
+#### **L'avenir de MCP**
 
 MCP est encore jeune. Les patterns émergent, les erreurs se répètent, les architectures se stabilisent. Ce qui est certain, c'est que **l'IA conversationnelle ne disparaîtra pas**, et qu'elle devra dialoguer avec nos SI existants.
 
 MCP n'est probablement pas la solution finale, mais c'est **la première tentative sérieuse de standardisation** de cette interface entre l'intelligence artificielle et les systèmes d'information.
 
-### **Le mot de la fin**
+#### **Le mot de la fin**
 
 MCP ne remplace ni un moteur de recherche, ni une base de données, ni un backend d'API.
-
-**Il commence là où la décision commence.**
 
 Utilisez-le avec discernement. Gouvernez-le avec rigueur. Et surtout, ne l'utilisez que quand il apporte vraiment quelque chose que vous ne pourriez pas faire autrement.
 
