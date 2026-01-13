@@ -111,7 +111,7 @@ Un point important à comprendre : **MCP ne fait rien d'intelligent en soi**. Il
 
 C'est une question que beaucoup de gens se posent, et c'est normal.
 
-  #### **5.1 Les agents ont été entraînés à le faire**
+  **Les agents ont simplement été entraînés à le faire**
 
 Les grands modèles de langage modernes ne font pas que générer du texte. Ils ont aussi appris à agir. Pendant leur entraînement, ils ont vu des milliers d'exemples où il fallait réfléchir à un objectif, appeler une fonction, observer le résultat, puis décider de la suite.
 
