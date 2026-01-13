@@ -1,40 +1,40 @@
 ---
 layout: post
-title: "Quand le SI rencontre les agents IA"
+title: "MCP - Quand le SI rencontre les agents IA"
 date: 2026-01-12 10:00:00 +0100
 categories: IA
 author: Baptiste Macé
 ---
 
-# **MCP – Quand le SI rencontre les agents IA**
-
 ## **Du système d'information classique à l'architecture agentique gouvernée**
 
-**Introduction : Comprendre l'Agent et son Écosystème**
+### **Introduction : Comprendre l'Agent et son Écosystème**
 
 L'intégration de l'intelligence artificielle dans les systèmes d'information traditionnels représente un défi majeur, principalement en raison de la nature fondamentalement différente de ces deux mondes. Pour appréhender cette complexité, il est essentiel de commencer par définir les acteurs clés et les concepts qui les entourent.
 
 Un **agent IA** est un programme logiciel conçu pour interagir avec son environnement. Sa capacité à "percevoir" signifie qu'il est configuré pour **recevoir des entrées de données structurées ou non structurées** (par exemple, du texte, des signaux numériques, des données de capteurs, des retours d'API) et à les traiter. Son fonctionnement repose sur des **algorithmes et des modèles computationnels** qui lui permettent de traiter ces entrées, de simuler des processus décisionnels et d'exécuter des actions. Il est programmé pour atteindre des objectifs spécifiques.
 
-Contrairement aux applications logicielles purement déterministes qui suivent un ensemble fixe d'instructions, un agent IA peut présenter un comportement non-déterministe. Cela signifie que, face à des entrées ou des contextes apparemment similaires, il peut générer des réponses ou suivre des chemins d'exécution différents. Cette variabilité est inhérente à la complexité de ses modèles internes et de son environnement d'interaction, et n'implique pas une conscience ou une intention humaine.
+Contrairement aux applications logicielles purement déterministes qui suivent un ensemble fixe d'instructions, un agent IA peut présenter un comportement non-déterministe. Cela signifie que, face à des entrées ou des contextes similaires, il peut générer des réponses ou suivre des chemins d'exécution différents. Cette variabilité est inhérente à la complexité de ses modèles internes et de son environnement d'interaction, et n'implique pas une conscience ou une intention humaine.
 
 Pour fonctionner, un agent IA dispose de plusieurs **outils** ou capacités :
 
-* **LLM (Large Language Model) embarqué** : Au cœur de nombreux agents IA modernes se trouve un modèle de langage étendu. Ce LLM est une composante logicielle qui a été **entraînée sur de très vastes ensembles de données textuelles** pour apprendre à prédire la suite la plus probable d'une séquence de mots. Il permet à l'agent de traiter et de générer du langage naturel, de réaliser des inférences basées sur des patterns appris, et de simuler des capacités de raisonnement. Il n'a pas de compréhension intrinsèque, mais est capable de produire des sorties cohérentes avec son entraînement. L'agent active ce LLM via des appels programmatiques et l'utilise pour interpréter les requêtes et formuler des intentions ou des réponses.  
+*  **LLM (Large Language Model) embarqué** :  
+Au cœur de nombreux agents IA modernes se trouve un modèle de langage étendu, entraîné sur de vastes ensembles de données textuelles pour prédire la suite la plus probable d’une séquence de mots. Le langage y est représenté sous forme de **vecteurs numériques (embeddings)** projetés dans un espace de grande dimension. La **distance entre ces vecteurs** permet de mesurer la proximité sémantique entre mots, phrases ou documents, même lorsqu’ils n’emploient pas les mêmes termes. Le LLM exploite ces relations de distance pour identifier des patterns, réaliser des inférences statistiques et générer des réponses cohérentes. Il ne comprend pas le sens au sens humain, mais manipule des similarités vectorielles apprises lors de l’entraînement. L’agent interagit avec ce LLM via des appels programmatiques afin d’interpréter les requêtes, détecter des intentions et formuler des réponses adaptées.
+
 * **MCP (Model Context Protocol)** : Ce protocole est un mécanisme de communication essentiel pour qu'un agent puisse interagir de manière structurée et gouvernée avec un système d'information. Le MCP permet à l'agent d'exécuter des fonctions spécifiques (appelées "tools") ou de lire des ressources (données) du SI. Il agit comme une interface standardisée, traduisant les requêtes de l'agent en appels déterministes pour le système sous-jacent.  
+
 * **A2A (Agent-to-Agent)** : Ce terme décrit la capacité d'un agent à communiquer et à échanger des informations ou des requêtes avec d'autres programmes agents IA. Il s'agit d'une interaction entre entités logicielles autonomes, souvent pour la délégation de tâches ou la combinaison d'expertises. Il est crucial de noter que les outils MCP sont conçus pour interagir avec des systèmes d'information déterministes et non pas pour orchestrer une cascade d'agents A2A, afin d'éviter une complexité et une imprévisibilité opérationnelles.
 
-* ### **RAG (Retrieval-Augmented Generation)**
+* **RAG (Retrieval-Augmented Generation)** :Ce terme décrit une architecture dans laquelle un agent IA **interagit avec une base de connaissances externe** afin d’enrichir son raisonnement avant génération. Il s’agit d’une **interaction contrôlée entre un agent génératif et un système de récupération d’information**, généralement basé sur des embeddings et une recherche vectorielle.
 
-  Ce terme décrit une architecture dans laquelle un agent IA **interagit avec une base de connaissances externe** afin d’enrichir son raisonnement avant génération. Il s’agit d’une **interaction contrôlée entre un agent génératif et un système de récupération d’information**, généralement basé sur des embeddings et une recherche vectorielle.
+* **multi-turn (ou conversationnel à plusieurs tours)** : C’est un mode d’interaction où l’agent maintient un état conversationnel et une mémoire des échanges précédents. Cela lui permet d’intégrer le contexte historique dans ses décisions et ses réponses, de poser des questions de clarification et d’adapter son comportement au fil d’une séquence d’interactions prolongée. Cette capacité est toutefois **contrainte par la taille du contexte d’entrée (nombre de tokens)** : plus la fenêtre de contexte est large, plus l’agent peut conserver finement l’historique de la conversation. À l’inverse, lorsque cette limite est atteinte, l’agent doit **rationnaliser le contexte** (résumés, oubli de détails, sélection d’éléments jugés pertinents) pour poursuivre l’échange.
 
-Le **multi-turn** (ou conversationnel à plusieurs tours) est un mode d'interaction où l'agent maintient un état conversationnel et une mémoire des échanges précédents. Cela lui permet d'intégrer le contexte historique dans ses décisions et ses réponses, de poser des questions de clarification et d'adapter son comportement au fil d'une séquence d'interactions prolongée.
 
-**1\. Avant MCP : un SI prévisible et rigide**
+### **1\. Avant MCP : un SI prévisible et rigide**
 
 Dans un système d'information (SI) classique, le fonctionnement est intrinsèquement déterministe. Chaque composant, de l'application à l'API et à la base de données, exécute des opérations et des flux de données prédéfinis et reproductibles. Les règles métier sont implémentées de manière statique dans le code, et les scénarios d'erreur sont généralement anticipés et gérés de manière explicite. Ce modèle déterministe est efficace et fiable jusqu'à l'intégration d'un agent IA.
 
-**2\. Le choc : connecter un agent à un SI**
+### **2\. Le choc : connecter un agent à un SI**
 
 La tentative initiale d'intégrer un agent IA dans un SI classique se heurte souvent à des difficultés inattendues. Un agent, par sa nature non-déterministe et son fonctionnement basé sur l'inférence plutôt que sur des instructions séquentielles strictes, introduit une variabilité que les systèmes traditionnels ne sont pas conçus pour gérer. L'agent peut initier des séquences d'appels imprévues, rendre la traçabilité des erreurs complexe (il est difficile de déterminer l'origine d'un dysfonctionnement entre le prompt, le modèle de l'agent et l'API du SI), et générer des coûts opérationnels non maîtrisés. Le problème fondamental réside dans l'absence d'un protocole standardisé pour établir un contrat d'interface clair entre le comportement exploratoire et probabiliste d'un LLM au sein d'un agent IA et la logique rigide et prévisible d'un SI. Les deux entités opèrent selon des paradigmes incompatibles sans un mécanisme d'intermédiation.
 
@@ -58,9 +58,7 @@ MCP structure les interactions autour de trois types d'éléments :
 
 **Le contexte** : ça inclut les règles métier, les prompts système et les contraintes d'usage.
 
-#### **Comment MCP est conçu concrètement**
-
-### **4.1 Concrètement, comment ça marche ?**
+  #### **4.1 Concrètement, comment ça marche ?**
 
 MCP, c'est avant tout **un protocole de communication standardisé**. Il repose sur **JSON-RPC 2.0**, un format d'appel de procédure à distance simple et léger.
 
@@ -92,7 +90,7 @@ Le serveur MCP expose plusieurs **routes standardisées** :
 * resources/read : pour lire le contenu d'une ressource  
 * prompts/list et prompts/get : pour récupérer des contextes prédéfinis
 
-  ### **4.2 Les modes de communication**
+  #### **4.2 Les modes de communication**
 
 Les échanges peuvent se faire de deux manières principales :
 
@@ -113,7 +111,7 @@ Un point important à comprendre : **MCP ne fait rien d'intelligent en soi**. Il
 
 C'est une question que beaucoup de gens se posent, et c'est normal.
 
-#### **5.1 Les agents ont été entraînés à le faire**
+  #### **5.1 Les agents ont été entraînés à le faire**
 
 Les grands modèles de langage modernes ne font pas que générer du texte. Ils ont aussi appris à agir. Pendant leur entraînement, ils ont vu des milliers d'exemples où il fallait réfléchir à un objectif, appeler une fonction, observer le résultat, puis décider de la suite.
 
@@ -121,17 +119,17 @@ Ils ont intégré le fait que certaines informations ne sont pas disponibles dan
 
 ### **6\. Fine-tuning, RLHF et usage des tools (en profondeur)**
 
-#### **6.1 Fine-tuning supervisé**
+  #### **6.1 Fine-tuning supervisé**
 
 Pendant cette phase d'entraînement, le modèle est exposé à des exemples annotés montrant les bonnes et les mauvaises décisions, ainsi que des appels de fonctions bien formés. Il apprend progressivement quand appeler un tool, lequel choisir, et avec quels paramètres.
 
-#### **6.2 RLHF (Reinforcement Learning from Human Feedback)**
+  #### **6.2 RLHF (Reinforcement Learning from Human Feedback)**
 
 Ensuite vient le RLHF, où les comportements efficaces sont récompensés et les mauvais sont pénalisés. Par exemple, si l'agent appelle trois tools alors qu'un seul suffit, ou s'il ignore une capacité pourtant disponible, il est sanctionné.
 
 Résultat : l'agent développe une sorte d'intuition sur le rapport coût/bénéfice de ses actions.
 
-#### **6.3 Pourquoi il explore quand même ?**
+  #### **6.3 Pourquoi il explore quand même ?**
 
 Parce que le contexte change constamment, les tools sont découverts de manière dynamique, et MCP ne garantit pas qu'il n'y ait qu'une seule façon sémantique de faire quelque chose.
 
@@ -139,11 +137,11 @@ Donc l'agent fait exactement ce qu'on lui a appris : il explore pour réduire l'
 
 ### **7\. Le rôle fondamental des embeddings**
 
-#### **7.1 Ce que font les embeddings**
+  #### **7.1 Ce que font les embeddings**
 
 Les descriptions des tools, ressources et contextes sont transformées en vecteurs puis comparées à l'objectif actuel de l'agent. Il choisit le tool qui est sémantiquement le plus proche, pas forcément celui qui a le bon nom.
 
-### **7.2 Exemple critique**
+  #### **7.2 Exemple critique**
 
 Imaginons deux tools : get\_client\_from\_crm et get\_client\_from\_erp.
 
@@ -268,9 +266,7 @@ Ne décrivez pas juste ce que fait le tool. Décrivez :
 
 Les embeddings ne lisent pas votre code. Ils lisent vos descriptions. Et c'est là que tout se joue.
 
-#### 
-
-#### **7.3 Danger réel**
+  #### **7.3 Danger réel**
 
 Si les descriptions des tools sont vagues ou se chevauchent, les embeddings vont se ressembler. L'agent va hésiter et finir par appeler plusieurs tools pour être sûr.
 
@@ -321,17 +317,17 @@ C'est un peu comme ajouter une API GraphQL par-dessus votre REST : ça ne rend p
 
 ### **9\. Limites de MCP – Performance et latence**
 
-#### **9.1 Chaque appel a un coût**
+  #### **9.1 Chaque appel a un coût**
 
 Il y a le raisonnement du modèle, la sérialisation des données, le réseau, l'orchestration... Un agent qui fait 10 appels MCP va mécaniquement avoir 10 fois plus de latence qu'un appel API direct.
 
-#### **9.2 MCP n'est pas temps réel**
+  #### **9.2 MCP n'est pas temps réel**
 
 Ce n'est clairement pas adapté aux chemins critiques ni aux systèmes qui nécessitent une très haute fréquence de traitement. MCP, c'est fait pour la décision, pas pour la micro-optimisation.
 
 ### **10\. Redondance : le piège architectural**
 
-#### **10.1 Redondance des tools**
+  #### **10.1 Redondance des tools**
 
 Quand on a plusieurs tools qui font essentiellement la même chose avec des descriptions proches, on se retrouve avec des appels multiples, des coûts inutiles et des décisions parfois incohérentes.
 
@@ -346,7 +342,7 @@ Si vous commencez à avoir des tools MCP qui eux-mêmes déclenchent des agents,
 
 **MCP doit être la couche de terminaison** : l'agent appelle MCP, MCP appelle du déterministe (API, base de données, fonction), et retourne un résultat. C'est tout.
 
-#### **10.2 Règle d'or MCP**
+  #### **10.2 Règle d'or MCP**
 
 **Un tool \= une intention métier claire.**
 
@@ -388,7 +384,7 @@ MCP peut amplifier considérablement l'impact environnemental et financier si l'
 
 MCP est puissant, mais ce n'est vraiment pas un outil universel. L'une des erreurs les plus fréquentes concerne les chatbots de recherche produit basés sur du RAG.
 
-#### **12.1 Anti-pattern n°1 : MCP pour une simple recherche produit**
+  #### **12.1 Anti-pattern n°1 : MCP pour une simple recherche produit**
 
 Prenons un chatbot e-commerce qui doit chercher des produits, filtrer par prix, catégorie et stock, puis afficher les résultats.
 
@@ -398,7 +394,7 @@ Le problème ? La recherche produit est déterministe, très structurée, très 
 
 On utilise un agent là où un simple moteur de recherche suffirait largement.
 
-#### **12.2 Anti-pattern n°2 : RAG \+ MCP en cascade**
+  #### **12.2 Anti-pattern n°2 : RAG \+ MCP en cascade**
 
 C'est une architecture qu'on voit très souvent : l'utilisateur envoie une question, le modèle utilise le RAG pour comprendre, puis appelle MCP pour confirmer, compare les résultats et reformule.
 
@@ -406,23 +402,23 @@ Résultat : on récupère deux fois la même information, on a de la redondance 
 
 Symptôme typique qu'on entend : "Notre chatbot fonctionne bien, mais il coûte très cher."
 
-#### **12.3 Pourquoi le RAG suffit dans ce cas**
+  #### **12.3 Pourquoi le RAG suffit dans ce cas**
 
 Le RAG est conçu exactement pour ça : recherche sémantique, filtrage rapide, haute fréquence et faible latence. Le moteur vectoriel est optimisé, déterministe, et ne raisonne pas inutilement.
 
 MCP n'apporte strictement aucune valeur ajoutée dans ce contexte.
 
-#### **12.4 Anti-pattern n°3 : un tool MCP "search\_products" trop générique**
+  #### **12.4 Anti-pattern n°3 : un tool MCP "search\_products" trop générique**
 
 Si vous avez juste un tool avec une description floue comme "Recherche des produits", vous allez créer des embeddings flous, des appels multiples et de l'exploration inutile.
 
 Mieux vaut découper par intention claire : `search_products_by_category`, `search_products_in_stock`, `get_product_details`, `create_quote`.
 
-#### **12.5 Règle de décision simple**
+  #### **12.5 Règle de décision simple**
 
 **Si la réponse peut être obtenue sans raisonnement, sans orchestration et sans décision, MCP est probablement un anti-pattern.**
 
-#### **12.6 Résumé des anti-patterns MCP courants**
+  #### **12.6 Résumé des anti-patterns MCP courants**
 
 * MCP pour du CRUD simple  
 * MCP pour de la recherche full-text ou vectorielle  
@@ -475,10 +471,10 @@ MCP n'est probablement pas la solution finale, mais c'est **la première tentati
 
 ### **Le mot de la fin**
 
-MCP ne remplace ni un moteur de recherche, ni une base de données, ni un backend bien conçu.
+MCP ne remplace ni un moteur de recherche, ni une base de données, ni un backend d'API.
 
 **Il commence là où la décision commence.**
 
 Utilisez-le avec discernement. Gouvernez-le avec rigueur. Et surtout, ne l'utilisez que quand il apporte vraiment quelque chose que vous ne pourriez pas faire autrement.
 
-Parce qu'au final, la vraie question n'est pas "Puis-je utiliser MCP ?" mais "Dois-je utiliser MCP ?"
+Parce qu'au final, la vraie question n'est pas "Puis-je utiliser MCP ?" mais "Dois-je vraiment utiliser MCP ?"
