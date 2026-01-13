@@ -428,7 +428,7 @@ Mieux vaut découper par intention claire : `search_products_by_category`, `sear
 
 #### 
 
-## **Conclusion – MCP n'est pas une baguette magique**
+## **En résumé – MCP n'est pas une baguette magique**
 
 MCP ne rend pas l'IA :
 
@@ -469,7 +469,7 @@ MCP est encore jeune. Les patterns émergent, les erreurs se répètent, les arc
 
 MCP n'est probablement pas la solution finale, mais c'est **la première tentative sérieuse de standardisation** de cette interface entre l'intelligence artificielle et les systèmes d'information.
 
-#### **Le mot de la fin**
+### **En conclusion :**
 
 MCP ne remplace ni un moteur de recherche, ni une base de données, ni un backend d'API.
 
