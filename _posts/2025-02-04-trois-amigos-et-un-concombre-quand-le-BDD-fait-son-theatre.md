@@ -1,11 +1,11 @@
-
 ---
 layout: post
 title: "Trois amigos et un concombre : quand le BDD fait son théâtre 🎭💻🥒"
-date: 2025-04-02 10:00:00 +0100
+date: 2025-02-04 10:23:00 +0100
 categories: BDD
 author: Baptiste Macé
 ---
+
 ### **Introduction**
 
 Dans la grande pièce qu'est le développement logiciel agile, la qualité du code n'est pas un simple décor de fond : elle est au cœur de la mise en scène. Mais attention, pas question d'en faire un acte isolé ou une répétition générale de dernière minute \! La qualité doit être intégrée dès les premières lignes du script, en collaboration avec toute la troupe.
