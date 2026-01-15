@@ -20,7 +20,7 @@ Pour ceux qui ne le connaissent pas encore, le Kata Gilded Rose nous plonge dans
 
 Cet exercice m'a été inspiré par le travail de **Colin Damon**, dont l'approche pédagogique m'a donné envie de m'y replonger avec un angle neuf. Pour le point de départ, rien de mieux que le repository d'**Emily Bache**, qui propose un environnement C# extrêmement complet. 
 
-> Pourquoi le **C#** ? Parce que c'est mon langage de cœur. Désolé chers amis Javaistes, mais l'élégance de .NET 8 et la concision de C# sont imbattables pour ce type d'exercice ! 😉
+Pourquoi le **C#** ? Parce que c'est mon langage de cœur. Désolé chers amis Javaistes, mais l'élégance de .NET 8 et la concision de C# sont imbattables pour ce type d'exercice ! 😉
 
 ---
 
