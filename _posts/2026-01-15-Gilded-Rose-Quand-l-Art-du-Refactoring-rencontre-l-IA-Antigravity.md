@@ -60,6 +60,12 @@ Faire ce kata avec **Antigravity**, c'est comme avoir un binôme extrêmement ra
 
 Le moment "WOW" ? Quand Antigravity a pris le contrôle d'un **vrai navigateur** via Playwright pour prouver que l'interface construite deux minutes plus tôt répondait parfaitement aux règles métier. Ce n'est plus seulement de l'écriture de code, c'est de l'ingénierie automatisée validée en temps réel.
 
+![Simulation results](/assets/gilded-rose/results.png)
+
+> [!TIP]
+> **Le moment du "slap" 👋** : Voici l'enregistrement de l'agent prenant le contrôle du navigateur pour valider la simulation de 5 jours.
+> ![Browser Recording](/assets/gilded-rose/recording.webp)
+
 ---
 
 ## ✅ Le Bilan Technique
