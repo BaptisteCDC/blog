@@ -63,6 +63,7 @@ Le moment "WOW" ? Quand Antigravity a pris le contrôle d'un **vrai navigateur**
 
 
 **Le moment du "slap" 👋** : Voici l'enregistrement de l'agent prenant le contrôle du navigateur pour valider la simulation de 5 jours.
+
 ![Browser Recording](/assets/gilded-rose/recording.webp)
 
 ---
