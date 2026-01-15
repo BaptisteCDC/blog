@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Gilded Rose : Quand l'Art du Refactoring rencontre l'IA Antigravity"
-date: 2026-01-15 12:00:00 +0100
+date: 2026-01-15 06:00:00 +0100
 categories: Software-Craftsmanship
 author: Baptiste Macé
 ---
