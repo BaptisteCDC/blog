@@ -6,7 +6,7 @@ categories: Software-Craftsmanship
 author: Baptiste Macé
 ---
 
-Le **Gilded Rose Kata** est une institution dans le monde du développement. C'est le test de passage pour tout artisan logiciel qui souhaite prouver sa capacité à transformer un "legacy code" monstrueux en une architecture élégante. Aujourd'hui, je vous présente une résolution particulière de ce défi : une collaboration étroite entre l'œil aiguisé d'un expert et la puissance de l'IA **Antigravity**.
+Le **Gilded Rose Kata** est une institution dans le monde du développement et pourtant je ne le conaissais pas. C'est le test de passage pour tout artisan logiciel qui souhaite prouver sa capacité à transformer un "legacy code" monstrueux en une architecture élégante. Aujourd'hui, je vous présente une résolution particulière de ce défi : une collaboration étroite entre l'œil aiguisé d'un expert et la puissance de l'IA **Antigravity**.
 
 ---
 
@@ -18,7 +18,7 @@ Pour ceux qui ne le connaissent pas encore, le Kata Gilded Rose nous plonge dans
 - **Backstage Passes** : Sa qualité explose à l'approche du concert, puis tombe à zéro après.
 - **Conjured** : Une nouveauté qui se dégrade deux fois plus vite que les objets normaux.
 
-Cet exercice m'a été inspiré par le travail de **Colin Damon**, dont l'approche pédagogique m'a donné envie de m'y replonger avec un angle neuf. Pour le point de départ, rien de mieux que le repository d'**Emily Bache**, qui propose un environnement C# extrêmement complet. 
+Cet exercice m'a été inspiré par le travail de **Colin Damon**, dont l'approche pédagogique m'a donné envie de m'y replonger avec un angle neuf. Pour le point de départ, rien de mieux que le repository d'**Emily Bache**, qui propose un environnement C# extrêmement complet pour le kata.
 
 Pourquoi le **C#** ? Parce que c'est mon langage de cœur. Désolé chers amis Javaistes, mais l'élégance de .NET 8 et la concision de C# sont imbattables pour ce type d'exercice ! 😉
 
@@ -38,11 +38,11 @@ public interface IItemStrategy {
 ```
 
 ### 2. Le Choc de l'Immuabilité (Guidance EXPERT)
-L'une des contraintes majeures était de **ne pas modifier la classe `Item`**. Là où beaucoup se seraient contentés de muter les propriétés, l'œil de l'expert a imposé une approche fonctionnelle pure : les stratégies retournent un **nouvel objet** `Item`.
+L'une des contraintes majeures était de **ne pas modifier la classe `Item`**. Là où beaucoup se seraient contentés de muter les propriétés, J'ai imposé une approche fonctionnelle pure : les stratégies retournent un **nouvel objet** `Item`.
 - **Résultat** : Un "Functional Core" sans effets de bord.
 
 ### 3. Découplage & Architecture Clean
-L'expert a pointé une erreur classique : le couplage du simulateur avec `Console.WriteLine`. Nous avons immédiatement refactoré pour injecter un `TextWriter`.
+J'ai pointé une erreur classique : le couplage du simulateur avec `Console.WriteLine`. Nous avons immédiatement refactoré pour injecter un `TextWriter`.
 - **Bénéfice** : Notre simulateur peut maintenant écrire dans la console, un fichier, ou un `StringBuilder` pour les tests unitaires sans changer une ligne de code.
 
 ### 4. Multi-Interface & Web API
@@ -77,7 +77,7 @@ Le moment "WOW" ? Quand Antigravity a pris le contrôle d'un **vrai navigateur**
 Le code est disponible sur mon nouveau repository : 
 🔗 **[GildedRose-Refactored-Final](https://github.com/BaptisteCDC/GildedRose-Refactored-Final)**
 
-Ce n'était pas un simple exercice de code, c'était une démonstration de ce qu'on peut accomplir quand on combine les principes du **Software Craftsmanship** avec une IA capable d'agir dans le monde réel.
+C'était plus qu'un simple exercice de code, J'ai découvert ce qu'on peut accomplir quand on combine les principes du **Software Craftsmanship** avec une IA capable d'agir dans le monde réel.
 
 ---
 *Ecrit avec passion, guidé par l'expertise, propulsé par Antigravity.*
