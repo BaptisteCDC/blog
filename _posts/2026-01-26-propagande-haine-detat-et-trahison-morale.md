@@ -23,6 +23,6 @@ Je me souviens des soutiens de Trump lors de son intronisation, je me souviens d
 
 Ne pas s’indigner face à cela n’est pas une neutralité, c’est une collaboration, car accepter la propagande, tolérer la haine, fermer les yeux sur la violence d’État, même par confort ou par lassitude, revient à participer à ce qui est en train de se construire.
 
-À l’époque où l’orgueil et la cupidité sont devenus des *ways of life*, il devient urgent de refuser ce récit dominant, de s’insurger politiquement, et d’inventer autre chose, non pas comme une posture morale abstraite, mais comme un projet concret fondé sur le vivre ensemble, la solidarité, le partage et le contentement.
+À l’époque où l’orgueil et la cupidité sont devenus des *ways of life*, il devient urgent de refuser ce récit dominant, de s’insurger politiquement, et d’inventer autre chose, non pas comme une posture morale abstraite, mais comme un projet concret fondé sur le vivre ensemble, la solidarité, le partage et la simplicité.
 
 Car ce qui se joue ici n’est pas seulement une alternance politique ou un mandat de plus, c’est une question historique, celle de savoir si nous accepterons, une fois encore, de regarder la haine s’installer au nom de l’ordre, ou si nous choisirons enfin de ne pas trahir.
