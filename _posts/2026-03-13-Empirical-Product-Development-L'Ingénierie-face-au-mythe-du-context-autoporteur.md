@@ -1,10 +1,10 @@
 ---
 layout: post
 title: "Empirical Product Development : L'Ingénierie face au mythe du context autoporteur"
-date: 2026-02-25
+date: 2026-03-13
 author: Baptiste Macé
 categories: [politique, société, histoire]
-tags: [bio, feve, salon, agriculture, responsabilité]
+tags: [IA,Empirical,Product,Development,Architecture,logiciel]
 ---
 
 On lit partout des récits sur l'automatisation totale : des multi-agents orchestrés, des MCP boostés au RAG, ou des IDE qui "comprennent" votre codebase comme par magie. C'est l'ère du **Spec-Driven Development (SDD)**. On sur-spécifie, on injecte des kilos de contexte, et on prie pour que le LLM converge vers une solution miracle.
