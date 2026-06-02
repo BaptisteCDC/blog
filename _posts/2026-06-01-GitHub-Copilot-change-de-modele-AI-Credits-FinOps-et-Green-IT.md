@@ -88,4 +88,4 @@ Je soupçonne que beaucoup d'entreprises vont découvrir dans les prochains mois
 
 Les meilleurs ingénieurs ne seront probablement pas ceux qui utilisent le plus l'IA. Ce seront ceux qui savent lui donner **le minimum de contexte nécessaire pour obtenir la bonne réponse**.
 
-Le passage aux AI Credits ne change pas la nature du métier. Il rend simplement visible, sur la facture comme sur la consommation d'énergie, une vérité que l'ingénierie répète depuis toujours : savoir cadrer un problème vaut mieux que savoir tout envoyer.
+Le passage aux AI Credits ne change pas la nature du métier. Il rend simplement visible, sur la facture comme sur la consommation d'énergie, une vérité que l'ingénierie répète depuis toujours : savoir cadrer un problème doit rester la priorité des ingénieurs logiciels.
