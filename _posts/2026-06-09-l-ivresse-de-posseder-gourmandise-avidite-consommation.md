@@ -103,13 +103,13 @@ La protection de la nature ne commence pas dans une manifestation. Elle commence
 
 ## En résumé : un mode de vie, pas une privation
 
-- ✦ **Appliquez la règle des cinq fois** avant tout achat.
-- ✦ **Déplacez-vous** : l'effort est un filtre naturel contre l'impulsion.
-- ✦ **Préférez les commerces spécialisés** aux grandes surfaces et aux plateformes.
-- ✦ **Réparez, réutilisez, renoncez** quand ce n'est pas nécessaire.
-- ✦ **Cultivez le contentement** : ce que vous avez suffit souvent.
-- ✦ **Nommez l'avidité** quand vous la voyez, en vous et autour de vous.
-- ✦ **Rappelez-vous** que chaque clic a une adresse dans le monde physique.
+-  **Appliquez la règle des cinq fois** avant tout achat.
+-  **Déplacez-vous** : l'effort est un filtre naturel contre l'impulsion.
+-  **Préférez les commerces spécialisés** aux grandes surfaces et aux plateformes.
+-  **Réparez, réutilisez, renoncez** quand ce n'est pas nécessaire.
+-  **Cultivez le contentement** : ce que vous avez suffit souvent.
+-  **Nommez l'avidité** quand vous la voyez, en vous et autour de vous.
+-  **Rappelez-vous** que chaque clic a une adresse dans le monde physique.
 
 Faire plus avec moins n'est pas une pauvreté. C'est une liberté.
 
