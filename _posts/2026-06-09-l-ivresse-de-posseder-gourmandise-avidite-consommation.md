@@ -19,7 +19,7 @@ Cette facilité a une odeur : elle sent la **gourmandise**. Non pas celle des pl
 
 Les chiffres sont accablants : **63 % des consommateurs regrettent leurs achats impulsifs réalisés sur les réseaux sociaux**, et **74 % reconnaissent avoir acheté des produits dont ils n'avaient tout simplement pas besoin** ¹. Pas un manque. Pas un besoin réel. Une impulsion déclenchée par un algorithme qui vous connaît mieux que vous-même.
 
-## Le mensonge doux du virtuel
+## La materialité du virtuel
 
 Le commerce en ligne a réalisé un tour de force : il a rendu la consommation *indolore*. Pas de trajet, pas de file d'attente, pas d'effort, pas de confrontation avec la réalité physique des choses. On ne voit pas les entrepôts, on ne sent pas le carton, on n'imagine pas les camions.
 
@@ -27,9 +27,9 @@ Mais derrière l'écran, le monde réel gronde.
 
 Commander un objet sur internet, c'est déclencher une chaîne invisible : extraction de ressources abiotiques (métaux, plastiques, minéraux rares), consommation d'eau, d'énergie fossile, transport intercontinental, emballages superposés. Et quand l'article déçoit (couleur différente, taille mauvaise, qualité médiocre), commence un autre voyage tout aussi coûteux : le retour.
 
-**Le taux de retour des achats en ligne atteint 30 %, contre 8 à 10 % pour les achats en magasin** ². Ces retours ne disparaissent pas proprement. Aux États-Unis, ils génèrent chaque année **15 millions de tonnes de CO₂** et **5 milliards de livres de déchets** mis en décharge ². Et le paradoxe cruel : **95 % des articles retournés sont en parfait état** ³, mais le coût humain de les remettre en rayon dépasse souvent leur valeur marchande. Ils brûlent, ou s'enfouissent.
+**Le taux de retour des achats en ligne atteint 30 %, contre 8 à 10 % pour les achats en magasin** ². Ces retours ne disparaissent pas proprement. Aux États-Unis, ils génèrent chaque année **15 millions de tonnes de CO₂** et **2,5 milliards de kg de déchets** mis en décharge ². Et le paradoxe cruel : **95 % des articles retournés sont en parfait état** ³, mais le coût humain de les remettre en rayon dépasse souvent leur valeur marchande. Donc ils sont brûlés, ou enfouis.
 
-Les pollutions que l'on observe à travers le monde (dans les océans, dans les airs, dans les sols) ne sont pas une fatalité. Elles sont **la résultante directe de nos choix de consommation**. Chaque clic irréfléchi a une adresse dans le monde réel.
+Les pollutions que l'on observe à travers le monde (dans les océans, les rivières, l'air et les sols) ne sont pas une fatalité. Elles sont **la résultante directe de nos choix de consommation**. Chaque clic irréfléchi a une adresse dans le monde réel.
 
 ## L'effet rebond ou l'illusion du progrès
 
